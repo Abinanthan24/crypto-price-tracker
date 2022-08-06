@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 
-st.markdown('''# **CRYPTO PRICE TRACKER BINANCE PRICE APP**
+st.markdown('''# **CRYPTO PRICE TRACKER (BINANCE CRYPTO PRICE APP)**
 A simple cryptocurrency price app pulling price data from *Binance API*.
 ''')
 
