@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 
-st.markdown('''# **Binance Price App**
+st.markdown('''# **CRYPTO PRICE TRACKER BINANCE PRICE APP**
 A simple cryptocurrency price app pulling price data from *Binance API*.
 ''')
 
@@ -52,7 +52,7 @@ for i in range(len(crpytoList.keys())):
 st.header('**All Price**')
 st.dataframe(df)
 
-st.info('Credit: Created by Chanin Nantasenamat (aka [Data Professor](https://youtube.com/dataprofessor/))')
+
 
 st.markdown("""
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
